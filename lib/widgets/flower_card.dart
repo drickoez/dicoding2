@@ -36,7 +36,7 @@ class FlowerCard extends StatelessWidget {
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(10),
                         child: Image.asset(
-                          items.imageAsset,
+                          items.gambar,
                           width: MediaQuery.of(context).size.width,
                           fit: BoxFit.fitWidth,
                         ),
@@ -47,7 +47,7 @@ class FlowerCard extends StatelessWidget {
                     ),
                     Expanded(
                       child: Text(
-                        items.name,
+                        items.nama,
                         style: blackTextStyle.copyWith(fontSize: 18),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
@@ -61,7 +61,7 @@ class FlowerCard extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
                           Text(
-                            '\$${items.price}',
+                            '\$${items.harga}',
                             style: blackTextStyle.copyWith(fontSize: 16),
                           ),
                           Row(

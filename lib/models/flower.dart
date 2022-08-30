@@ -1,83 +1,83 @@
 class Flower {
-  String name;
-  String imageAsset;
-  int price;
-  String description;
-  String producer;
+  String nama;
+  String gambar;
+  int harga;
+  String deskripsi;
+  String produser;
   num rating;
 
   Flower({
-    required this.name,
-    required this.imageAsset,
-    required this.price,
-    required this.description,
-    required this.producer,
+    required this.nama,
+    required this.gambar,
+    required this.harga,
+    required this.deskripsi,
+    required this.produser,
     required this.rating,
   });
 }
 
 var flowerList = [
   Flower(
-    name: 'Felicity',
-    imageAsset: 'images/felicity.jpg',
-    price: 45,
-    description:
+    nama: 'Felicity',
+    gambar: 'images/felicity.jpg',
+    harga: 45,
+    deskripsi:
         'This delightful bouquet contains a lovely selection of purple eustomas, white chrysant balls and caspias. A lovely gift for someone you care about.',
-    producer: 'Edelweiss Florist',
+    produser: 'Edelweiss Florist',
     rating: 4.9,
   ),
   Flower(
-    name: 'My Sunshine',
-    imageAsset: 'images/sunshine.jpg',
-    price: 43,
-    description:
+    nama: 'My Sunshine',
+    gambar: 'images/sunshine.jpg',
+    harga: 43,
+    deskripsi:
         'Bouquet of a huge sunflower with lovely yellow-white chrysants.',
-    producer: 'Edelweiss Florist',
+    produser: 'Edelweiss Florist',
     rating: 4.8,
   ),
   Flower(
-    name: 'Red Lust',
-    imageAsset: 'images/redlust.jpg',
-    price: 39,
-    description:
+    nama: 'Red Lust',
+    gambar: 'images/redlust.jpg',
+    harga: 39,
+    deskripsi:
         'Let your love bloom with this beautiful bouquet with stunning red roses.',
-    producer: 'Edelweiss Florist',
+    produser: 'Edelweiss Florist',
     rating: 4.5,
   ),
   Flower(
-    name: 'Peach Beauty',
-    imageAsset: 'images/peach.jpg',
-    price: 80,
-    description:
+    nama: 'Peach Beauty',
+    gambar: 'images/peach.jpg',
+    harga: 80,
+    deskripsi:
         'Bouquet of two-tone pink roses with sweet williams in a pink floral box.',
-    producer: 'Edelweiss Florist',
+    produser: 'Edelweiss Florist',
     rating: 4.9,
   ),
   Flower(
-    name: 'Summer Breeze',
-    imageAsset: 'images/summer.jpg',
-    price: 40,
-    description:
+    nama: 'Summer Breeze',
+    gambar: 'images/summer.jpg',
+    harga: 40,
+    deskripsi:
         'A bouquet of sunny yellow and soft pink gerberas for a happy occasion.',
-    producer: 'Edelweiss Florist',
+    produser: 'Edelweiss Florist',
     rating: 4.4,
   ),
   Flower(
-    name: 'Radiance',
-    imageAsset: 'images/radiance.jpg',
-    price: 130,
-    description:
+    nama: 'Radiance',
+    gambar: 'images/radiance.jpg',
+    harga: 130,
+    deskripsi:
         'Wonderful bouquet of lilies arranged in a clear vase.',
-    producer: 'Edelweiss Florist',
+    produser: 'Edelweiss Florist',
     rating: 4.6,
   ),
   Flower(
-    name: 'Evelyn',
-    imageAsset: 'images/evelyn.jpg',
-    price: 60,
-    description:
+    nama: 'Evelyn',
+    gambar: 'images/evelyn.jpg',
+    harga: 60,
+    deskripsi:
         'Bouquet of hope.',
-    producer: 'Edelweiss Florist',
+    produser: 'Edelweiss Florist',
     rating: 4.7,
   ),
 ];

@@ -18,7 +18,7 @@ class DetailPage extends StatelessWidget {
         child: Stack(
           children: [
             Image.asset(
-              flower.imageAsset,
+              flower.gambar,
               width: MediaQuery.of(context).size.width,
               fit: BoxFit.fill,
             ),
@@ -52,7 +52,7 @@ class DetailPage extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  flower.name,
+                                  flower.nama,
                                   style: blackTextStyle.copyWith(
                                     fontSize: 22,
                                   ),
@@ -68,7 +68,7 @@ class DetailPage extends StatelessWidget {
                                     ),
                                     children: [
                                       TextSpan(
-                                          text: flower.producer,
+                                          text: flower.produser,
                                           style: blackTextStyle.copyWith(
                                             fontSize: 16,
                                           )),
@@ -110,7 +110,7 @@ class DetailPage extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.only(left: edge),
                         child: Text(
-                          flower.description,
+                          flower.deskripsi,
                           style: greyTextStyle.copyWith(
                             fontSize: 14,
                           ),
@@ -130,7 +130,7 @@ class DetailPage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
                             Text(
-                              '\$${flower.price}',
+                              '\$${flower.harga}',
                               style: blackTextStyle.copyWith(
                                 fontSize: 24,
                               ),
