@@ -19,7 +19,7 @@ class Flower {
 var flowerList = [
   Flower(
     nama: 'Felicity',
-    gambar: 'images/felicity.jpg',
+    gambar: 'assets/images/felicity.jpg',
     harga: 45,
     deskripsi:
         'This delightful bouquet contains a lovely selection of purple eustomas, white chrysant balls and caspias. A lovely gift for someone you care about.',
@@ -28,7 +28,7 @@ var flowerList = [
   ),
   Flower(
     nama: 'My Sunshine',
-    gambar: 'images/sunshine.jpg',
+    gambar: 'assets/images/sunshine.jpg',
     harga: 43,
     deskripsi:
         'Bouquet of a huge sunflower with lovely yellow-white chrysants.',
@@ -37,7 +37,7 @@ var flowerList = [
   ),
   Flower(
     nama: 'Red Lust',
-    gambar: 'images/redlust.jpg',
+    gambar: 'assets/images/redlust.jpg',
     harga: 39,
     deskripsi:
         'Let your love bloom with this beautiful bouquet with stunning red roses.',
@@ -46,7 +46,7 @@ var flowerList = [
   ),
   Flower(
     nama: 'Peach Beauty',
-    gambar: 'images/peach.jpg',
+    gambar: 'assets/images/peach.jpg',
     harga: 80,
     deskripsi:
         'Bouquet of two-tone pink roses with sweet williams in a pink floral box.',
@@ -55,7 +55,7 @@ var flowerList = [
   ),
   Flower(
     nama: 'Summer Breeze',
-    gambar: 'images/summer.jpg',
+    gambar: 'assets/images/summer.jpg',
     harga: 40,
     deskripsi:
         'A bouquet of sunny yellow and soft pink gerberas for a happy occasion.',
@@ -64,7 +64,7 @@ var flowerList = [
   ),
   Flower(
     nama: 'Radiance',
-    gambar: 'images/radiance.jpg',
+    gambar: 'assets/images/radiance.jpg',
     harga: 130,
     deskripsi:
         'Wonderful bouquet of lilies arranged in a clear vase.',
@@ -73,7 +73,7 @@ var flowerList = [
   ),
   Flower(
     nama: 'Evelyn',
-    gambar: 'images/evelyn.jpg',
+    gambar: 'assets/images/evelyn.jpg',
     harga: 60,
     deskripsi:
         'Bouquet of hope.',
